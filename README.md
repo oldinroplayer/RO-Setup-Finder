@@ -49,6 +49,7 @@ http://rofull.gnjoy.com/RAG_SETUP_20250806-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20250806-3.bin
 http://rofull.gnjoy.com/Ragnarok_250806_2.zip
 http://rofull.gnjoy.com/RAG_SETUP_20251002.exe
+http://rofull.gnjoy.com/KR_RO1_Live_20251001_122947.tar
 
 ---
 
