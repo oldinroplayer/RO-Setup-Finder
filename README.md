@@ -5,6 +5,7 @@
 # 📦 RO-Setup-Finder
 
 O **RO Setup Finder** é uma ferramenta desenvolvida para **varrer, identificar e registrar automaticamente links válidos** de instaladores, patches e arquivos antigos do servidor **rofull.gnjoy.com**, gerando uma lista completa de downloads disponíveis.
+Ele testa todas as combinações de datas e formatos conhecidos dos arquivos do Kro, Sakray e Zero, incluindo .exe e .zip, e salva os links válidos em um arquivo de texto.
 
 ---
 
