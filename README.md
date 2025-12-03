@@ -58,6 +58,8 @@ http://rofull.gnjoy.com/KR_RO1_Live_20251001_122947.tar
 O **RO Setup Finder** é uma ferramenta desenvolvida para **varrer, identificar e registrar automaticamente links válidos** de instaladores, patches e arquivos antigos do servidor **rofull.gnjoy.com**, gerando uma lista completa de downloads disponíveis.
 Ele testa todas as combinações de datas e formatos conhecidos dos arquivos do Kro, Sakray e Zero, incluindo .exe e .zip, e salva os links válidos em um arquivo de texto.
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AoShinRO/RO-Setup-Finder)
+
 ---
 
 ## 🔍 Funcionalidades
