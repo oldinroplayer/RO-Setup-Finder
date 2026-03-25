@@ -19,7 +19,10 @@ padroes = [
     "http://rofull.gnjoy.com/RAG_SETUP_{d8}-3.bin",
     "http://rofull.gnjoy.com/RAG_SETUP_{d6}_SAK.zip",
     "http://rofull.gnjoy.com/Ragnarok_{d6}.zip",
-    "http://rofull.gnjoy.com/Ragnarok_{d6}_2.zip"
+    "http://rofull.gnjoy.com/Ragnarok_{d6}_2.zip",
+    "http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_{d6}.exe",
+    "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{d6}.exe",
+    "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{d8}.exe"
 ]
 
 SEM_MAX = 6
