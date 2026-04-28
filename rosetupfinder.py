@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 from datetime import datetime, timedelta
 
-data_inicial = datetime(2025, 10, 2)
+data_inicial = datetime(2020, 1, 1)
 data_atual = datetime.now()
 
 padroes = [
