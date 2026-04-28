@@ -6,8 +6,8 @@ concurrency:
   
 on:  
     schedule:  
-        - cron: '0 0 28 * *'   # dia 28 de cada mês à meia-noite UTC  
-    workflow_dispatch:           # permite disparar manualmente (pra rodar agora)  
+        - cron: '0 0 1 * *' 
+    workflow_dispatch:
   
 permissions:  
     contents: write  
