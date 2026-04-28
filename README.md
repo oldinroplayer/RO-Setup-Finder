@@ -1,4 +1,4 @@
-Links |
+Not Default Pattern Valid Links |
 ------|
 http://rofull.gnjoy.com/Ragnarok_250806_2.zip
 http://rofull.gnjoy.com/KR_RO1_Live_20251001_122947.tar
@@ -79,4 +79,3 @@ Intended for cataloging, preservation, and research purposes.
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
-```
