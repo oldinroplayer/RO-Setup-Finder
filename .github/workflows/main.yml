@@ -36,7 +36,7 @@ jobs:
               run: |  
                   git config user.name "github-actions"  
                   git config user.email "github-actions@users.noreply.github.com"  
-                  git add links_validos.txt  
+                  git add links_validos.md  
   
-                  git diff --cached --quiet || git commit -m "links: auto update links_validos.txt"  
+                  git diff --cached --quiet || git commit -m "links: auto update links_validos.md"  
                   git push
