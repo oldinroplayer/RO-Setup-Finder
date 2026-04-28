@@ -1,68 +1,51 @@
-# Output
-Links | 
+Links |
 ------|
 http://rofull.gnjoy.com/Ragnarok_250806_2.zip
 http://rofull.gnjoy.com/KR_RO1_Live_20251001_122947.tar
-/*this links are valids but not default pattern*/
 [![Monthly Update Valid Links](https://img.shields.io/badge/%E2%96%B6%20Monthly%20Update%20Valid%20Links%20Here-e8b84b?style=for-the-badge&labelColor=cc0000)](https://github.com/AoShinRO/RO-Setup-Finder/blob/main/links_validos.md)
 ---
 
-# 📦 RO-Setup-Finder
+# RO-Setup-Finder
 
-O **RO Setup Finder** é uma ferramenta desenvolvida para **varrer, identificar e registrar automaticamente links válidos** de instaladores, patches e arquivos antigos do servidor **rofull.gnjoy.com**, gerando uma lista completa de downloads disponíveis.
-Ele testa todas as combinações de datas e formatos conhecidos dos arquivos do Kro, Sakray e Zero, incluindo .exe e .zip, e salva os links válidos em um arquivo de texto.
+**RO-Setup-Finder** is an automated tool that scans, identifies, and catalogs valid download links for Ragnarok Online client installers, patches, and setup files hosted on official distribution servers (`rofull.gnjoy.com` and `twcdn.gnjoy.com.tw`).
+
+It generates every possible URL combination across a date range using known file naming patterns, tests each one asynchronously, and outputs a list of all available downloads.
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/AoShinRO/RO-Setup-Finder)
 
 ---
 
-## 🔍 Funcionalidades
+## Features
 
-* ✅ Teste automático de múltiplos padrões de URL
-* ✅ Geração dinâmica de datas (YYMMDD / YYYYMMDD)
-* ✅ Varredura completa entre intervalo de anos
-* ✅ Execução assíncrona com controle de limite de conexões
-* ✅ Salvamento automático dos links válidos
-* ✅ Detecção de erros e tentativas seguras
-* ✅ Evita bloqueios do servidor utilizando delays inteligentes
-* ✔ Ideal para localizar instaladores antigos ou ocultos
+- Asynchronous HTTP scanning with configurable concurrency (semaphore-based)
+- Automatic date generation in both `YYMMDD` and `YYYYMMDD` formats
+- Covers kRO, Sakray, and Zero client variants (`.exe`, `.zip`, `.bin`)
+- Rate-limited requests to avoid server-side blocking
+- Graceful error handling with per-URL status reporting
+- Results automatically committed via GitHub Actions on a monthly schedule
 
 ---
 
-## 🚀 Como funciona
+## How It Works
 
-O programa gera URLs a partir de padrões como:
-
-```
-http://rofull.gnjoy.com/ZERO_SETUP_YYMMDD.exe
-http://rofull.gnjoy.com/RagnarokZero_YYMMDD.zip
-http://rofull.gnjoy.com/ROZ_SETUP_YYYYMMDD_Sak.zip
-http://rofull.gnjoy.com/RAG_SETUP_YYMMDD.exe
-http://rofull.gnjoy.com/RAG_SETUP_YYMMDD_SAK.zip
-http://rofull.gnjoy.com/Ragnarok_YYMMDD.zip
-```
-
-E faz testes assíncronos usando `aiohttp`, limitando as conexões e evitando flood.
-
-Links válidos são gravados automaticamente em:
+The scanner generates URLs from known patterns such as:
 
 ```
-links_validos.txt
+http://rofull.gnjoy.com/RAG_SETUP_{YYMMDD}.exe
+http://rofull.gnjoy.com/ZERO_SETUP_{YYMMDD}.exe
+http://rofull.gnjoy.com/RagnarokZero_{YYMMDD}.zip
+http://rofull.gnjoy.com/RAG_SETUP_{YYYYMMDD}.exe
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{YYYYMMDD}.exe
 ```
+
+Each URL is tested with an HTTP HEAD/GET request. Links returning `200 OK` are saved to the output file.
 
 ---
 
-## ⚡ Tecnologias utilizadas
+## Requirements
 
-* **Python 3.9+**
-* **asyncio**
-* **aiohttp**
-
----
-
-## 📄 Requisitos
-
-Instalar dependências:
+- Python 3.9+
+- [aiohttp](https://docs.aiohttp.org/)
 
 ```bash
 pip install aiohttp
@@ -70,33 +53,30 @@ pip install aiohttp
 
 ---
 
-## 🏁 Execução
-
-Rodar o script:
+## Usage
 
 ```bash
 python3 rosetupfinder.py
 ```
 
+Valid links will be written to `links_validos.md` (or `links_validos.txt` if configured).
+
 ---
 
-## 🗂 Saída gerada
+## Automation
 
-O arquivo `links_validos.txt` conterá:
+A GitHub Actions workflow runs this script automatically on the **1th of every month**, committing any updated results back to the repository. It can also be triggered manually via `workflow_dispatch`.
 
+---
+
+## Disclaimer
+
+This tool **does not download any files** — it only checks URL availability.  
+Intended for cataloging, preservation, and research purposes.
+
+---
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 ```
-http://rofull.gnjoy.com/ZERO_SETUP_230105.exe
-http://rofull.gnjoy.com/RagnarokZero_220607.zip
-...
-```
-
----
-
-## 📌 Aviso
-
-O programa **não baixa** nenhum arquivo — apenas testa disponibilidade.
-Ideal para fins de catalogação, preservação e estudo.
-
----
-
-
