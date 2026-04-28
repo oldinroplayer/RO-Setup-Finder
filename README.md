@@ -4,7 +4,7 @@ Links |
 http://rofull.gnjoy.com/Ragnarok_250806_2.zip
 http://rofull.gnjoy.com/KR_RO1_Live_20251001_122947.tar
 /*this links are valids but not default pattern*/
-[![Valid Links](https://img.shields.io/badge/%E2%96%B6%20Valid%20Links%20Here-e8b84b?style=for-the-badge&labelColor=cc0000)](https://github.com/AoShinRO/RO-Setup-Finder/blob/main/links_validos.md)
+[![Monthly Update Valid Links](https://img.shields.io/badge/%E2%96%B6%20Monthly%20Update%20Valid%20Links%20Here-e8b84b?style=for-the-badge&labelColor=cc0000)](https://github.com/AoShinRO/RO-Setup-Finder/blob/main/links_validos.md)
 ---
 
 # 📦 RO-Setup-Finder
