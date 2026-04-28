@@ -22,7 +22,9 @@ padroes = [
     "http://rofull.gnjoy.com/Ragnarok_{d6}_2.zip",
     "http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_{d6}.exe",
     "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{d6}.exe",
-    "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{d8}.exe"
+    "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{d8}.exe",
+    "http://patch2.gungho.jp/pub/dl-gunghoftp/roftp/fullclient/JP_Live_{d6}.tar",
+    "http://patch2.gungho.jp/pub/dl-gunghoftp/roftp/fullclient/JP_Live_{d8}.tar"
 ]
 
 SEM_MAX = 6
