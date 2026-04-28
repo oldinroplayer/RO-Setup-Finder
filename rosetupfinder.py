@@ -46,7 +46,7 @@ async def testar_url(session, url, arquivo):
 async def main():
     tarefas = []
 
-    with open("links_validos.txt", "w", encoding="utf-8") as arquivo:
+    with open("links_validos.md", "w", encoding="utf-8") as arquivo:
         async with aiohttp.ClientSession() as session:
 
             dia = data_inicial
@@ -62,7 +62,7 @@ async def main():
 
             await asyncio.gather(*tarefas)
 
-    print("\n Todos os links válidos foram salvos em links_validos.txt")
+    print("\n Todos os links válidos foram salvos em links_validos.md")
 
 
 asyncio.run(main())
