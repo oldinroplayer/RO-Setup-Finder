@@ -47,6 +47,8 @@ async def main():
     tarefas = []
 
     with open("links_validos.md", "w", encoding="utf-8") as arquivo:
+        arquivo.write("Links |\n")  
+        arquivo.write("------|\n")
         async with aiohttp.ClientSession() as session:
 
             dia = data_inicial
