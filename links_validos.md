@@ -45,9 +45,10 @@ http://rofull.gnjoy.com/RAG_SETUP_20250317-3.bin
 http://rofull.gnjoy.com/Ragnarok_250317.zip
 http://rofull.gnjoy.com/RAG_SETUP_20250806.exe
 http://rofull.gnjoy.com/RAG_SETUP_20250806-1.bin
-http://rofull.gnjoy.com/RAG_SETUP_20250806-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20250806-3.bin
+http://rofull.gnjoy.com/RAG_SETUP_20250806-2.bin
 http://rofull.gnjoy.com/Ragnarok_250806_2.zip
 http://rofull.gnjoy.com/RAG_SETUP_20251002.exe
 http://rofull.gnjoy.com/RAG_SETUP_20260401.exe
+http://patch2.gungho.jp/pub/dl-gunghoftp/roftp/fullclient/JP_Live_20260407.tar
 http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_260409.exe
