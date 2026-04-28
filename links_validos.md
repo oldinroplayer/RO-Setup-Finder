@@ -1,3 +1,5 @@
+Links | 
+------|
 http://rofull.gnjoy.com/RAG_SETUP_200304.exe
 http://rofull.gnjoy.com/ZERO_SETUP_200304.exe
 http://rofull.gnjoy.com/RagnarokZero_200304.zip
