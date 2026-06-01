@@ -1,8 +1,8 @@
 Links |
 ------|
-http://rofull.gnjoy.com/RAG_SETUP_200304.exe
 http://rofull.gnjoy.com/ZERO_SETUP_200304.exe
 http://rofull.gnjoy.com/RagnarokZero_200304.zip
+http://rofull.gnjoy.com/RAG_SETUP_200304.exe
 http://rofull.gnjoy.com/Ragnarok_200304.zip
 http://rofull.gnjoy.com/RAG_SETUP_200806.exe
 http://rofull.gnjoy.com/ZERO_SETUP_200807.exe
@@ -29,8 +29,8 @@ http://rofull.gnjoy.com/RAG_SETUP_240108.exe
 http://rofull.gnjoy.com/Ragnarok_240418.zip
 http://rofull.gnjoy.com/RagnarokZero_240513.zip
 http://rofull.gnjoy.com/RAG_SETUP_240610.exe
-http://rofull.gnjoy.com/RAG_SETUP_240610-1.bin
 http://rofull.gnjoy.com/RAG_SETUP_240610-2.bin
+http://rofull.gnjoy.com/RAG_SETUP_240610-1.bin
 http://rofull.gnjoy.com/RAG_SETUP_240610-3.bin
 http://rofull.gnjoy.com/Ragnarok_240610.zip
 http://rofull.gnjoy.com/RAG_SETUP_20240809.exe
@@ -39,13 +39,13 @@ http://rofull.gnjoy.com/RAG_SETUP_20240809-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20240809-3.bin
 http://rofull.gnjoy.com/RagnarokZero_250317.zip
 http://rofull.gnjoy.com/RAG_SETUP_20250317.exe
-http://rofull.gnjoy.com/RAG_SETUP_20250317-3.bin
-http://rofull.gnjoy.com/RAG_SETUP_20250317-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20250317-1.bin
+http://rofull.gnjoy.com/RAG_SETUP_20250317-2.bin
+http://rofull.gnjoy.com/RAG_SETUP_20250317-3.bin
 http://rofull.gnjoy.com/Ragnarok_250317.zip
 http://rofull.gnjoy.com/RAG_SETUP_20250806.exe
-http://rofull.gnjoy.com/RAG_SETUP_20250806-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20250806-1.bin
+http://rofull.gnjoy.com/RAG_SETUP_20250806-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20250806-3.bin
 http://rofull.gnjoy.com/Ragnarok_250806_2.zip
 http://rofull.gnjoy.com/RAG_SETUP_20251002.exe
