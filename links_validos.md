@@ -33,8 +33,8 @@ http://rofull.gnjoy.com/RAG_SETUP_240610-1.bin
 http://rofull.gnjoy.com/RAG_SETUP_240610-3.bin
 http://rofull.gnjoy.com/RAG_SETUP_240610-2.bin
 http://rofull.gnjoy.com/Ragnarok_240610.zip
-http://rofull.gnjoy.com/RAG_SETUP_20240809.exe
 http://rofull.gnjoy.com/RAG_SETUP_20240809-1.bin
+http://rofull.gnjoy.com/RAG_SETUP_20240809.exe
 http://rofull.gnjoy.com/RAG_SETUP_20240809-2.bin
 http://rofull.gnjoy.com/RAG_SETUP_20240809-3.bin
 http://rofull.gnjoy.com/RagnarokZero_250317.zip
